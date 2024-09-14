@@ -1,0 +1,114 @@
+:root {
+  font-family: win95, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: "win95";
+  src: url(./assets/w95.woff);
+}
+
+.logo {
+  display: block;
+  margin: 20px;
+  width: 100px;
+  height: 100px;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: block;
+  place-items: center;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+#header {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+  padding: 0;
+  font-size: 3.75vh;
+  line-height: 1;
+  color: #fd8750;
+}
+
+#time {
+  position: absolute;
+  top: 3.75vh;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+  padding: 0;
+  font-size: 10vh;
+  line-height: 1;
+}
+
+#footer {
+  position: absolute;
+  top: 15vh;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+  padding: 0;
+  font-size: 5vh;
+  line-height: 1;
+  color: #3273ff ;
+}
+
+#timeline {
+  width: 100%;
+  max-width: 500px;
+  height: 85%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 15%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:hover {
+  border-color: #646cff;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
