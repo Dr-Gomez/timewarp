@@ -1,7 +1,7 @@
 import "./style.css";
 
 function app() {
-  const appElement = document.getElementById("app");
+  console.log("script working");
 }
 
 app();
